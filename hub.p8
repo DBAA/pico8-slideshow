@@ -2,19 +2,18 @@ pico-8 cartridge // http://www.pico-8.com
 version 16
 __lua__
 
---todo:
---skip button
+--put this file in the /carts folder on the pico-pi
 
 --baisc info
-time_to_show_carts = 60
+time_to_show_carts = 90
 time_to_show_info = 8
 
 explainer_time = 10
 chance_to_show_explainer = 0.10
 
-my_name = "start" --this needs to match the name of this file but without ".p8"
+my_name = "hub" --this needs to match the name of this file but without ".p8"
 
-folder_name = "carts/" --name of the folder with the carts. should be adjacent to this file
+folder_name = "tweets/" --name of the folder with the carts. should be adjacent to this file
 
 --cart info
   --id is the name of the file that will be loaded (without ".p8")
@@ -32,6 +31,11 @@ order = {
     creator="@mboffin"
   },
   {
+    id="endless_field",
+    name="endless field",
+    creator="@gateeightyeight"
+  },
+  {
     id="wave_ribbons",
     name="wave ribbons",
     creator="@andy_makes"
@@ -41,7 +45,6 @@ order = {
     name="untitled",
     creator="alex mckendry"
   },
-  
   {
     id="cellular_automata",
     name="automata",
@@ -52,15 +55,16 @@ order = {
     name="breathe",
     creator="@gateeighteight"
   },
-  {
-    id="the_big_crunch",
-    name="the big crunch",
-    creator="@gateeighteight"
-  },
+  
   {
     id="3d-helix",
     name="3d helix",
     creator="@p01"
+  },
+  {
+    id="the_big_crunch",
+    name="the big crunch",
+    creator="@gateeighteight"
   },
   {
     id="3d-helix",
@@ -105,6 +109,7 @@ function _init()
 
   --figure out where we are
   cur_id = stat(6)
+  printh("cur id:"..cur_id)
 
   cur_id_num = 2
   for i=1,#order do 
@@ -113,12 +118,17 @@ function _init()
     end
   end
 
+  --if we were passed "random" as the id, select one at random
+  if cur_id == "random" then
+    cur_id_num = flr(1+rnd(#order))
+  end
+
   next_id_num = cur_id_num + 1
   if next_id_num > #order then
     next_id_num = 1
   end
 
-  printh("cur id "..cur_id_num)
+  printh("cur id num:"..cur_id_num)
 
   --time to give an explainer?
   if rnd(1) < chance_to_show_explainer then
@@ -164,7 +174,7 @@ function draw_credits()
   color(7)
 
   local left_x = 2
-  local right_x = 126
+  local right_x = 127
   local y_pos = 8
   local text_col = 7
 
