@@ -1,7 +1,0 @@
-In the pico-pi SD card
-
-Move rom.p8 to root
-
-Move everything else (hub.p8 and the tweets folder) to /carts
-
-Do not move blank.p8. That is just for use when making new carts.
