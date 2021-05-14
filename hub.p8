@@ -5,7 +5,7 @@ __lua__
 --put this file in the /carts folder on the pico-pi
 
 --baisc info
-time_to_show_carts = 90
+time_to_show_carts = 100
 time_to_show_info = 8
 
 explainer_time = 10
@@ -21,18 +21,26 @@ folder_name = "tweets_v2/" --name of the folder with the carts. should be adjace
   --creator is the twitter handle
 order = { 
   {
+    id="sushi",
+    name="sushi",
+    creator="@munrohoberman"
+  },
+
+  {
+    id="city_life",
+    name="city life",
+    creator="@gregosel"
+  },
+
+  {
+    id="vapor_sunrise",
+    name="vapor sunrise",
+    creator="@spug"
+  },
+
+  {
     id="book",
     name="book",
-    creator="@2darray"
-  },
-  {
-    id="ocean4",
-    name="ocean 4",
-    creator="@2darray"
-  },
-  {
-    id="shit_flag",
-    name="shit flag",
     creator="@2darray"
   },
 
@@ -47,16 +55,16 @@ order = {
     name="lost planet",
     creator="@andy_makes"
   },
-  {
-    id="gem_tiles",
-    name="gem tiles",
-    creator="@andy_makes"
-  },
 
   {
     id="sumi",
     name="sumi the squid",
     creator="@beanborg"
+  },
+  {
+    id="outer_worlds",
+    name="outer worlds",
+    creator="@trasevol_dog"
   },
 
   {
@@ -76,10 +84,11 @@ order = {
     name="8 bit pleasure",
     creator="@gregosel"
   },
+  
   {
-    id="city_life",
-    name="city life",
-    creator="@gregosel"
+    id="chain_ripples",
+    name="chain ripples",
+    creator="@picoter8"
   },
 
   {
@@ -87,64 +96,11 @@ order = {
     name="distance signs",
     creator="@munrohoberman"
   },
-  {
-    id="cosmic_horror",
-    name="cosmic horror",
-    creator="@munrohoberman"
-  },
-  {
-    id="sushi",
-    name="sushi",
-    creator="@munrohoberman"
-  },
 
   {
-    id="wormhole",
-    name="wormhole",
-    creator="@oakreef"
-  },
-  {
-    id="bouncing_spheres",
-    name="bouncing spheres",
-    creator="@p01"
-  },
-
-  {
-    id="chain_ripples",
-    name="chain ripples",
-    creator="@picoter8"
-  },
-  {
-    id="zippers",
-    name="zippers",
-    creator="@picoter8"
-  },
-
-  {
-    id="golden_circles",
-    name="golden circles",
-    creator="@spug"
-  },
-  {
-    id="vapor_sunrise",
-    name="vapor sunrise",
-    creator="@spug"
-  },
-
-  {
-    id="ripple_heart",
-    name="ripple heart",
-    creator="@trasevol_dog"
-  },
-  {
-    id="outer_worlds",
-    name="outer worlds",
-    creator="@trasevol_dog"
-  },
-  {
-    id="twisty_pillar",
-    name="twisty pillar",
-    creator="@trasevol_dog"
+    id="gem_tiles",
+    name="gem tiles",
+    creator="@andy_makes"
   },
 
   {
@@ -152,6 +108,61 @@ order = {
     name="nakatomi cleaner",
     creator="@von_rostock"
   },
+
+  {
+    id="wormhole",
+    name="wormhole",
+    creator="@oakreef"
+  },
+
+  {
+    id="bouncing_spheres",
+    name="bouncing spheres",
+    creator="@p01"
+  },
+  
+  {
+    id="ocean4",
+    name="ocean 4",
+    creator="@2darray"
+  },
+
+  {
+    id="zippers",
+    name="zippers",
+    creator="@picoter8"
+  },
+
+  {
+    id="cosmic_horror",
+    name="cosmic horror",
+    creator="@munrohoberman"
+  },
+
+  {
+    id="golden_circles",
+    name="golden circles",
+    creator="@spug"
+  },
+  
+  {
+    id="ripple_heart",
+    name="ripple heart",
+    creator="@trasevol_dog"
+  },
+
+  {
+    id="shit_flag",
+    name="shit flag",
+    creator="@2darray"
+  },
+  
+  {
+    id="twisty_pillar",
+    name="twisty pillar",
+    creator="@trasevol_dog"
+  },
+  
   {
     id="neon_jellyfish",
     name="neon jellyfish",
