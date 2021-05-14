@@ -13,7 +13,7 @@ chance_to_show_explainer = 0.10
 
 my_name = "hub" --this needs to match the name of this file but without ".p8"
 
-folder_name = "tweets_v2/" --name of the folder with the carts. should be adjacent to this file
+folder_name = "tweets/" --name of the folder with the carts. should be adjacent to this file
 
 --cart info
   --id is the name of the file that will be loaded (without ".p8")
@@ -21,143 +21,81 @@ folder_name = "tweets_v2/" --name of the folder with the carts. should be adjace
   --creator is the twitter handle
 order = { 
   {
-    id="book",
-    name="book",
-    creator="@2darray"
-  },
-  {
-    id="ocean4",
-    name="ocean 4",
-    creator="@2darray"
-  },
-  {
-    id="shit_flag",
-    name="shit flag",
-    creator="@2darray"
-  },
-
-  {
-    id="bibliotech",
-    name="bibliotech",
-    creator="@abemassry"
-  },
-
-  {
-    id="lost_planet",
-    name="lost planet",
+    id="a",
+    name="noodles",
     creator="@andy_makes"
   },
   {
-    id="gem_tiles",
-    name="gem tiles",
-    creator="@andy_makes"
+    id="mb_genuary21day5-0",
+    name="genuary21 day5",
+    creator="@mboffin"
   },
-
   {
-    id="sumi",
-    name="sumi the squid",
-    creator="@beanborg"
-  },
-
-  {
-    id="aeiou",
-    name="aeiou!",
-    creator="@cbmakes"
-  },
-
-  {
-    id="twin_twist",
-    name="twin twist",
+    id="endless_field",
+    name="endless field",
     creator="@gateeightyeight"
   },
-
   {
-    id="8bitpleasure",
-    name="8 bit pleasure",
-    creator="@gregosel"
+    id="wave_ribbons",
+    name="wave ribbons",
+    creator="@andy_makes"
   },
   {
-    id="city_life",
-    name="city life",
-    creator="@gregosel"
-  },
-
-  {
-    id="distance_signs",
-    name="distance signs",
-    creator="@munrohoberman"
+    id="fuzzy",
+    name="untitled",
+    creator="alex mckendry"
   },
   {
-    id="cosmic_horror",
-    name="cosmic horror",
-    creator="@munrohoberman"
+    id="cellular_automata",
+    name="automata",
+    creator="@mboffin"
   },
   {
-    id="sushi",
-    name="sushi",
-    creator="@munrohoberman"
+    id="breathe",
+    name="breathe",
+    creator="@gateeighteight"
   },
-
+  
   {
-    id="wormhole",
-    name="wormhole",
-    creator="@oakreef"
-  },
-  {
-    id="bouncing_spheres",
-    name="bouncing spheres",
+    id="3d-helix",
+    name="3d helix",
     creator="@p01"
   },
-
   {
-    id="chain_ripples",
-    name="chain ripples",
-    creator="@picoter8"
+    id="the_big_crunch",
+    name="the big crunch",
+    creator="@gateeighteight"
   },
   {
-    id="zippers",
-    name="zippers",
-    creator="@picoter8"
-  },
-
-  {
-    id="golden_circles",
-    name="golden circles",
-    creator="@spug"
+    id="3d-helix",
+    name="3d helix",
+    creator="@p01"
   },
   {
-    id="vapor_sunrise",
-    name="vapor sunrise",
-    creator="@spug"
-  },
-
-  {
-    id="ripple_heart",
-    name="ripple heart",
-    creator="@trasevol_dog"
+    id="tweet_2020-08-27",
+    name="ghost lights",
+    creator="@andy_makes"
   },
   {
-    id="outer_worlds",
-    name="outer worlds",
-    creator="@trasevol_dog"
+    id="b",
+    name="torus knot",
+    creator="@p01"
   },
   {
-    id="twisty_pillar",
-    name="twisty pillar",
-    creator="@trasevol_dog"
-  },
-
-  {
-    id="nakatomi",
-    name="nakatomi cleaner",
-    creator="@von_rostock"
+    id="mb_genuary21_day1-0",
+    name="genuary21 day1",
+    creator="@mboffin"
   },
   {
-    id="neon_jellyfish",
-    name="neon jellyfish",
-    creator="@von_rostock"
+    id="discotech",
+    name="discotech",
+    creator="@abemassry"
   },
-
+  {
+    id="voxel-landscape",
+    name="voxel landscape",
+    creator="@p01"
+  }
 }
 
 --other stuff
@@ -173,7 +111,7 @@ function _init()
   cur_id = stat(6)
   printh("cur id:"..cur_id)
 
-  cur_id_num = 22
+  cur_id_num = 2
   for i=1,#order do 
     if cur_id == order[i].id then
       cur_id_num = i
