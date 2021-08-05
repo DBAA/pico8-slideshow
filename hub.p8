@@ -76,9 +76,9 @@ order = {
   },
 
   {
-    id="eyeballs",
-    name="eyeballs",
-    creator="@theoremnd"
+    id="circle_rain",
+    name="circle rain",
+    creator="@mralexthescott"
   },
 
   {
@@ -197,6 +197,7 @@ function load_next()
     filename = folder_name..order[next_id_num].id..".p8"
     breadcrumb = my_name..","..tostring(time_to_show_carts)
     parameters = order[next_id_num].id
+    printh("loading "..filename)
     load(filename, breadcrumb, parameters)
 end
 

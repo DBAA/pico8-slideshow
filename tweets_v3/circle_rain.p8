@@ -29,3 +29,17 @@ function check_time()
 end
 --end of check_time
 
+
+h=7 v=6 c={8,9,10,11,3,12} t=0
+::♥::
+cls()
+for x=1,h,1 do
+for y=1,v,1 do
+y_pos = 16+96*(sin(t+y/22+x/14)+1)/2
+circ(x*16,y_pos,7,c[y])
+end
+end
+t+=0.005
+flip()
+check_time()
+goto ♥
