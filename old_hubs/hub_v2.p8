@@ -13,143 +13,163 @@ chance_to_show_explainer = 0.10
 
 my_name = "hub" --this needs to match the name of this file but without ".p8"
 
-folder_name = "tweets_v3/" --name of the folder with the carts. should be adjacent to this file
+folder_name = "tweets_v2/" --name of the folder with the carts. should be adjacent to this file
 
 --cart info
   --id is the name of the file that will be loaded (without ".p8")
   --name is the display anme for the project
   --creator is the twitter handle
-
 order = { 
   {
-    id="mutton",
-    name="mutton",
+    id="sushi",
+    name="sushi",
     creator="@munrohoberman"
   },
 
   {
-    id="smoke_columns",
-    name="smoke columns",
-    creator="@trasevol_dog"
-  },
-
-  {
-    id="clothesline",
-    name="clothesline",
-    creator="@2darray"
-  },
-
-  {
-    id="rogue_intelligence",
-    name="rogue intel",
-    creator="@munrohoberman"
-  },
-
-  {
-    id="disco_squid",
-    name="disco squid",
-    creator="@lexaloffle"
-  },
-
-  {
-    id="threads",
-    name="threads",
-    creator="@gunturtle"
-  },
-
-  {
-    id="night_rollers",
-    name="night rollers",
-    creator="@andy_makes"
-  },
-
-  {
-    id="transfer",
-    name="transfer",
+    id="city_life",
+    name="city life",
     creator="@gregosel"
   },
 
   {
-    id="arthurian_legends",
-    name="arthurian lgnds",
-    creator="@von_rostock"
+    id="vapor_sunrise",
+    name="vapor sunrise",
+    creator="@spug"
   },
 
   {
-    id="eyeballs",
-    name="eyeballs",
-    creator="@theoremnd"
-  },
-
-  {
-    id="almost_there",
-    name="almost there",
-    creator="@lexaloffle"
-  },
-  
-  {
-    id="spiral_coil",
-    name="spiral coils",
-    creator="@picoter8"
-  },
-
-  {
-    id="lazy_clouds",
-    name="lazy clouds",
+    id="book",
+    name="book",
     creator="@2darray"
   },
 
   {
-    id="responsibilities",
-    name="responsibilities",
-    creator="@axnjaxn"
+    id="bibliotech",
+    name="bibliotech",
+    creator="@abemassry"
   },
 
   {
-    id="train_ride",
-    name="train ride",
-    creator="@jahndis"
-  },
-
-  {
-    id="spinning_rainbow",
-    name="spinning rainbow",
-    creator="@0xsim"
-  },
-
-  {
-    id="hex_moire",
-    name="hex moire",
-    creator="@gunturtle"
-  },
-
-  {
-    id="fatal_error",
-    name="fatal error",
-    creator="@cbmakes"
-  },
-
-  {
-    id="party_pyramids",
-    name="party pyramids",
+    id="lost_planet",
+    name="lost planet",
     creator="@andy_makes"
   },
 
   {
-    id="shivers",
-    name="shivers",
+    id="sumi",
+    name="sumi the squid",
+    creator="@beanborg"
+  },
+  {
+    id="outer_worlds",
+    name="outer worlds",
+    creator="@trasevol_dog"
+  },
+
+  {
+    id="aeiou",
+    name="aeiou!",
+    creator="@cbmakes"
+  },
+
+  {
+    id="twin_twist",
+    name="twin twist",
+    creator="@gateeightyeight"
+  },
+
+  {
+    id="8bitpleasure",
+    name="8 bit pleasure",
+    creator="@gregosel"
+  },
+  
+  {
+    id="chain_ripples",
+    name="chain ripples",
+    creator="@picoter8"
+  },
+
+  {
+    id="distance_signs",
+    name="distance signs",
+    creator="@munrohoberman"
+  },
+
+  {
+    id="gem_tiles",
+    name="gem tiles",
+    creator="@andy_makes"
+  },
+
+  {
+    id="nakatomi",
+    name="nakatomi cleaner",
     creator="@von_rostock"
   },
 
   {
-    id="waves",
-    name="waves",
-    creator="@theoremnd"
-  }
+    id="wormhole",
+    name="wormhole",
+    creator="@oakreef"
+  },
 
+  {
+    id="bouncing_spheres",
+    name="bouncing spheres",
+    creator="@p01"
+  },
   
-}
+  {
+    id="ocean4",
+    name="ocean 4",
+    creator="@2darray"
+  },
 
+  {
+    id="zippers",
+    name="zippers",
+    creator="@picoter8"
+  },
+
+  {
+    id="cosmic_horror",
+    name="cosmic horror",
+    creator="@munrohoberman"
+  },
+
+  {
+    id="golden_circles",
+    name="golden circles",
+    creator="@spug"
+  },
+  
+  {
+    id="ripple_heart",
+    name="ripple heart",
+    creator="@trasevol_dog"
+  },
+
+  {
+    id="shit_flag",
+    name="shit flag",
+    creator="@2darray"
+  },
+  
+  {
+    id="twisty_pillar",
+    name="twisty pillar",
+    creator="@trasevol_dog"
+  },
+  
+  {
+    id="neon_jellyfish",
+    name="neon jellyfish",
+    creator="@von_rostock"
+  },
+
+}
 
 --other stuff
 text_h = 6
