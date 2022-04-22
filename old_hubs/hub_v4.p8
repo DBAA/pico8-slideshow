@@ -13,7 +13,7 @@ chance_to_show_explainer = 0.10
 
 my_name = "hub" --this needs to match the name of this file but without ".p8"
 
-folder_name = "tweets_v5/" --name of the folder with the carts. should be adjacent to this file
+folder_name = "tweets_v4/" --name of the folder with the carts. should be adjacent to this file
 
 --cart info
   --id is the name of the file that will be loaded (without ".p8")
@@ -23,243 +23,143 @@ folder_name = "tweets_v5/" --name of the folder with the carts. should be adjace
 --big sprite font by thattomhall
 --thanks!
 
---inverting capitalization on the names looks better
-
 order = { 
   
   {
-    id="volume5",
+    id="title",
     name="title",
     creator="dbaa"
   },
 
   {
-    id="mazewar",
-    creator="@valeradhd"
-  },
-  
-  {
-    id="colorful",
-    name="color squiggle",
-    creator="@axnjaxn"
-  },
-  
-  {
-    id="fuzz",
-    creator="@sourencho"
-  },
-  {
-    id="psychedelic_growth",
-    name="psych growth",
-    creator="@cARSONkOMPON"
+    id="diamond",
+    name="diamond",
+    creator="@trasevol_dog"
   },
 
   {
-    id="so_far",
-    name="so far, so good",
-    creator="@axnjaxn"
-  },
-  {
-    id="old_letters",
-    name="old letters",
-    creator="@von_rostock"
-  },
-  {
-    id="platforms",
-    creator="@andy_makes"
+    id="falling_star",
+    name="falling star",
+    creator="@picoter8"
   },
 
   {
-    id="sunset_drive",
-    name = "sunset drive",
-    creator="@tHEOREMND"
-  },
-  {
-    id="cat_parade",
-    name = "cat parade",
-    creator="@tscoct"
+    id="ice_cream",
+    name="ice cream 3d",
+    creator="@2darray"
   },
 
   {
-    id="64s_loop",
-    name = "64 second loop",
+    id="automatower",
+    name="automatower",
     creator="@lexaloffle"
   },
 
   {
-    id="sunflower_seeds",
-    name = "sunflower seeds",
-    creator="@gamedevbrook"
+    id="moon",
+    name="moon with tree",
+    creator="@lexaloffle"
   },
 
   {
-    id="moon",
+    id="plaid",
+    name="plaid",
+    creator="@gunturtle"
+  },
+
+  {
+    id="fractal",
+    name="fractal stuff",
+    creator="@gunturtle"
+  },
+
+  {
+    id="bsod",
+    name="land of bsod",
+    creator="@von_rostock"
+  },
+
+  {
+    id="pool",
+    name="swimming pool",
+    creator="@von_rostock"
+  },
+
+  {
+    id="ideogram",
+    name="alien ideogram",
+    creator="@aebrer"
+  },
+
+  {
+    id="memory_shredder",
+    name="memory shredder",
+    creator="@aebrer"
+  },
+
+  {
+    id="free_hand",
+    name="free_hand",
+    creator="@munrohoberman"
+  },
+
+  {
+    id="starfish",
+    name="starfish",
+    creator="@sourencho"
+  },
+
+  {
+    id="memory_probe",
+    name="memory probe",
+    creator="@alexthescott"
+  },
+
+  {
+    id="dunes",
+    name="dunes",
+    creator="@andy_makes"
+  },
+
+  {
+    id="taffy_pull",
+    name="taffy pull",
+    creator="@andy_makes"
+  },
+
+  {
+    id="maze",
+    name="maze",
     creator="@lucatron_"
   },
 
   {
-    id="psych_tunnel",
-    name = "psych tunnel",
+    id="box_tunnel",
+    name="box tunnel",
+    creator="@lucatron_"
+  },
+
+  {
+    id="trans_rights",
+    name="trans rights",
     creator="@pixienop"
   },
 
   {
-    id="jacked_in",
-    name="jacked in",
-    creator="@twitonatrain"
-  },
-
-  {
-    id="scanning",
-    creator="@gUNtURTLE"
-  },
-
-  {
-    id="husky",
-    creator="@2darray"
+    id="tentacles",
+    name="tentacles",
+    creator="@pixienop"
   },
 
 
   {
-    id="lie_cake",
-    name="lie cake",
-    --creator="@MunroHoberman"
-    creator="@mUNROhOBERMAN"
-  },
-
-  {
-    id="pendulum",
-    name="pendulum",
-    --creator="@GregosEl"
-    creator="@gREGOeL"
-  },
-
-  
-
-  -- {
-  --   id="ice_cream",
-  --   name="ice cream 3d",
-  --   creator="@2darray"
-  -- },
-
-  -- {
-  --   id="automatower",
-  --   name="automatower",
-  --   creator="@lexaloffle"
-  -- },
-
-  -- {
-  --   id="moon",
-  --   name="moon with tree",
-  --   creator="@lexaloffle"
-  -- },
-
-  -- {
-  --   id="plaid",
-  --   name="plaid",
-  --   creator="@gunturtle"
-  -- },
-
-  -- {
-  --   id="fractal",
-  --   name="fractal stuff",
-  --   creator="@gunturtle"
-  -- },
-
-  -- {
-  --   id="bsod",
-  --   name="land of bsod",
-  --   creator="@von_rostock"
-  -- },
-
-  -- {
-  --   id="pool",
-  --   name="swimming pool",
-  --   creator="@von_rostock"
-  -- },
-
-  -- {
-  --   id="ideogram",
-  --   name="alien ideogram",
-  --   creator="@aebrer"
-  -- },
-
-  -- {
-  --   id="memory_shredder",
-  --   name="memory shredder",
-  --   creator="@aebrer"
-  -- },
-
-  -- {
-  --   id="free_hand",
-  --   name="free_hand",
-  --   creator="@munrohoberman"
-  -- },
-
-  -- {
-  --   id="starfish",
-  --   name="starfish",
-  --   creator="@sourencho"
-  -- },
-
-  -- {
-  --   id="memory_probe",
-  --   name="memory probe",
-  --   creator="@alexthescott"
-  -- },
-
-  -- {
-  --   id="dunes",
-  --   name="dunes",
-  --   creator="@andy_makes"
-  -- },
-
-  -- {
-  --   id="taffy_pull",
-  --   name="taffy pull",
-  --   creator="@andy_makes"
-  -- },
-
-  -- {
-  --   id="maze",
-  --   name="maze",
-  --   creator="@lucatron_"
-  -- },
-
-  -- {
-  --   id="box_tunnel",
-  --   name="box tunnel",
-  --   creator="@lucatron_"
-  -- },
-
-  -- {
-  --   id="trans_rights",
-  --   name="trans rights",
-  --   creator="@pixienop"
-  -- },
-
-  -- {
-  --   id="tentacles",
-  --   name="tentacles",
-  --   creator="@pixienop"
-  -- },
-
-
-  -- {
-  --   id="pulsating",
-  --   name="pulsating",
-  --   creator="0xsim"
-  -- }
+    id="pulsating",
+    name="pulsating",
+    creator="0xsim"
+  }
 
   
 }
-
-for item in all(order) do
-  if item.name == nil then
-    printh("set name for "..item.id)
-    item.name = item.id
-  end
-end
 
 
 --other stuff
@@ -273,9 +173,9 @@ function _init()
 
   --figure out where we are
   cur_id = stat(6)
-  --printh("cur id:"..cur_id)
+  printh("cur id:"..cur_id)
 
-  cur_id_num = 1
+  cur_id_num = 22
   for i=1,#order do 
     if cur_id == order[i].id then
       cur_id_num = i
@@ -365,7 +265,7 @@ function draw_credits()
   sprint(order[next_id_num].creator, right_x+1-text_width(order[next_id_num].creator)*2, y_pos, text_col)
 
   --gallery
-  print("#tweetcart gallery 5 at", 17,56, text_col)
+  print("#tweetcart gallery 4 at", 17,56, text_col)
 
   --wonderville
   local bar_name = {"w","o","n","d","e","r","v","i","l","l","e"}
