@@ -13,7 +13,7 @@ chance_to_show_explainer = 0.10
 
 my_name = "hub" --this needs to match the name of this file but without ".p8"
 
-folder_name = "tweets_v6/" --name of the folder with the carts. should be adjacent to this file
+folder_name = "tweets_v5/" --name of the folder with the carts. should be adjacent to this file
 
 --cart info
   --id is the name of the file that will be loaded (without ".p8")
@@ -28,196 +28,141 @@ folder_name = "tweets_v6/" --name of the folder with the carts. should be adjace
 order = { 
   
   {
-    id="volume6",
-    name="vol 6 title",
+    id="volume5",
+    name="title",
     creator="dbaa"
   },
 
+
+
   {
-    id="rollercoaster",
-    creator="@2daRRAY"
+    id="witness",
+    creator="@von_rostock"
   },
 
   {
-    id="more_moire",
-    name="more moire",
+    id="braids",
     creator="@gUNtURTLE"
   },
 
   {
-    id="rollin_rainbow",
-    name="rollin rainbow",
-    creator="@cYPOOOS"
-  },
-
-  {
-    id="orrery",
-    creator="@andy_makes"
-  },
-
-  {
-    id="disjointed",
-    name = "disjointed smile",
-    creator="@lexaloffle"
-  },
-
-  {
-    id="square_whirl",
-    name = "square whirl",
-    creator="@picoter8"
-  },
-
-  {
-    id="squiggle",
-    creator="@lexodden"
-  },
-
-  {
-    id="not_great",
-    name="reactor chamber",
-    creator="@von_rostock"
-  },
-
-  {
-    id="blade_runner",
-    name="blade runner",
-    creator="@von_rostock"
-  },
-
-  {
-    id="tunnel",
-    name="aBERRATIONtUNNEL",
-    creator="@twitonatrain"
-  },
-
-  {
-    id="firenze",
-    creator="@slcmb"
-  },
-
-  {
-    id="sky",
-    creator="@voxeledphoton"
-  },
-
-  {
-    id= "page_turner",
-    name= "page turner",
-    creator="@ctinney94"
-  },
-
-  {
-    id="cookie",
-    name="3d cookie",
-    creator="mUSICALLYdECLINE"
-  },
-
-  {
-    id="bouncy",
-    creator="@pixienop"
-  },
-
-  {
-    id="gyroscopic",
-    creator="@mUNROhOBERMAN"
-  },
-
-  {
-    id="plasma",
+    id="bounce",
     creator="@tHEOREMND"
   },
 
   {
-    id="brain",
-    name="cursed brain",
+    id="leshy",
     creator="@gamedevbrook"
   },
 
-  {
-    id="under_stars",
-    name="slept under the stars",
-    creator="@axnjaxn"
-  },
+  
 
   {
-    id="trees",
-    creator="@lucatron_"
-  },
-
-  {
-    id="colorful",
-    creator="@gUNtURTLE"
-  },
-
-  {
-    id="eruption",
-    creator="@gREGOeL"
+    id="mazewar",
+    creator="@valeradhd"
   },
   
   {
-    id="checker_board",
-    name="checker board",
-    creator="@p01"
+    id="colorful",
+    name="color squiggle",
+    creator="@axnjaxn"
   },
-
+  
   {
-    id="wind_thingy",
-    name="wind thingy",
+    id="fuzz",
     creator="@sourencho"
   },
+  {
+    id="psychedelic_growth",
+    name="psych growth",
+    creator="@cARSONkOMPON"
+  },
 
   {
-    id="smoke_columns",
-    name="smoke columns",
+    id="so_far",
+    name="so far, so good",
+    creator="@axnjaxn"
+  },
+  {
+    id="old_letters",
+    name="old letters",
+    creator="@von_rostock"
+  },
+  {
+    id="platforms",
+    creator="@andy_makes"
+  },
+
+  {
+    id="sunset_drive",
+    name = "sunset drive",
+    creator="@tHEOREMND"
+  },
+  {
+    id="cat_parade",
+    name = "cat parade",
+    creator="@tscoct"
+  },
+
+  {
+    id="64s_loop",
+    name = "64 second loop",
+    creator="@lexaloffle"
+  },
+
+  {
+    id="pastel_pool",
+    name="pastel pool",
     creator="@trasevol_dog"
   },
 
   {
-    id="pride_ribbon",
-    name="pride ribbon",
-    creator="@tHExANDAN"
+    id="sunflower_seeds",
+    name = "sunflower seeds",
+    creator="@gamedevbrook"
   },
 
   {
-    id="ocean_born",
-    name="ocean born",
-    creator="@tHExANDAN"
+    id="moon",
+    creator="@lucatron_"
+  },
+
+  {
+    id="psych_tunnel",
+    name = "psych tunnel",
+    creator="@pixienop"
+  },
+
+  {
+    id="jacked_in",
+    name="jacked in",
+    creator="@twitonatrain"
+  },
+
+  {
+    id="scanning",
+    creator="@gUNtURTLE"
+  },
+
+  {
+    id="husky",
+    creator="@2darray"
   },
 
 
-  -- {
-  --   id="psychedelic_growth",
-  --   name="psych growth",
-  --   creator="@cARSONkOMPON"
-  -- },
+  {
+    id="lie_cake",
+    name="lie cake",
+    --creator="@MunroHoberman"
+    creator="@mUNROhOBERMAN"
+  },
 
-  -- {
-  --   id="so_far",
-  --   name="so far, so good",
-  --   creator="@axnjaxn"
-  -- },
-  -- {
-
-
-
-  -- {
-  --   id="sunset_drive",
-  --   name = "sunset drive",
-  --   creator="@tHEOREMND"
-  -- },
-  -- {
-  --   id="cat_parade",
-  --   name = "cat parade",
-  --   creator="@tscoct"
-  -- },
-
-
-
-
-
-
-
-
+  {
+    id="pendulum",
+    name="pendulum",
+    --creator="@GregosEl"
+    creator="@gREGOeL"
+  }
 
   
   
@@ -244,7 +189,7 @@ function _init()
   cur_id = stat(6)
   --printh("cur id:"..cur_id)
 
-  cur_id_num = 25
+  cur_id_num = 1
   for i=1,#order do 
     if cur_id == order[i].id then
       cur_id_num = i
@@ -334,7 +279,7 @@ function draw_credits()
   sprint(order[next_id_num].creator, right_x+1-text_width(order[next_id_num].creator)*2, y_pos, text_col)
 
   --gallery
-  print("#tweetcart gallery 6 at", 17,56, text_col)
+  print("#tweetcart gallery 5 at", 17,56, text_col)
 
   --wonderville
   local bar_name = {"w","o","n","d","e","r","v","i","l","l","e"}
