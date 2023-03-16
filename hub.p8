@@ -39,6 +39,12 @@ order = {
   },
 
   {
+    id="disjointed",
+    name = "concept of fire",
+    creator="@lexaloffle"
+  },
+
+  {
     id="more_moire",
     name="more moire",
     creator="@gUNtURTLE"
@@ -53,12 +59,6 @@ order = {
   {
     id="orrery",
     creator="@andy_makes"
-  },
-
-  {
-    id="disjointed",
-    name = "disjointed smile",
-    creator="@lexaloffle"
   },
 
   {
@@ -79,12 +79,6 @@ order = {
   },
 
   {
-    id="blade_runner",
-    name="blade runner",
-    creator="@von_rostock"
-  },
-
-  {
     id="tunnel",
     name="aBERRATIONtUNNEL",
     creator="@twitonatrain"
@@ -96,20 +90,28 @@ order = {
   },
 
   {
-    id="sky",
-    creator="@voxeledphoton"
-  },
-
-  {
     id= "page_turner",
     name= "page turner",
     creator="@ctinney94"
   },
 
   {
+    id="sky",
+    creator="@voxeledphoton"
+  },
+
+  
+
+  {
     id="cookie",
     name="3d cookie",
     creator="mUSICALLYdECLINE"
+  },
+
+  {
+    id="blade_runner",
+    name="blade runner",
+    creator="@von_rostock"
   },
 
   {
@@ -128,25 +130,31 @@ order = {
   },
 
   {
+    id="pride_ribbon",
+    name="pride ribbon",
+    creator="@tHExANDAN"
+  },
+
+  {
     id="brain",
     name="cursed brain",
     creator="@gamedevbrook"
   },
 
   {
+    id="colorful",
+    creator="@gUNtURTLE"
+  },
+
+  {
     id="under_stars",
-    name="slept under the stars",
+    name="under the stars",
     creator="@axnjaxn"
   },
 
   {
     id="trees",
     creator="@lucatron_"
-  },
-
-  {
-    id="colorful",
-    creator="@gUNtURTLE"
   },
 
   {
@@ -172,11 +180,7 @@ order = {
     creator="@trasevol_dog"
   },
 
-  {
-    id="pride_ribbon",
-    name="pride ribbon",
-    creator="@tHExANDAN"
-  },
+  
 
   {
     id="ocean_born",
@@ -184,42 +188,17 @@ order = {
     creator="@tHExANDAN"
   },
 
-
-  -- {
-  --   id="psychedelic_growth",
-  --   name="psych growth",
-  --   creator="@cARSONkOMPON"
-  -- },
-
-  -- {
-  --   id="so_far",
-  --   name="so far, so good",
-  --   creator="@axnjaxn"
-  -- },
-  -- {
-
-
-
-  -- {
-  --   id="sunset_drive",
-  --   name = "sunset drive",
-  --   creator="@tHEOREMND"
-  -- },
-  -- {
-  --   id="cat_parade",
-  --   name = "cat parade",
-  --   creator="@tscoct"
-  -- },
-
-
-
-
-
-
-
-
-
   
+  {
+    id="ethereal_lattice",
+    name = "ethereal lattice",
+    creator="@lexaloffle"
+  },
+  {
+    id="vision_quest",
+    name = "vision quest",
+    creator="@jahndis"
+  },
   
 }
 
@@ -244,7 +223,7 @@ function _init()
   cur_id = stat(6)
   --printh("cur id:"..cur_id)
 
-  cur_id_num = 25
+  cur_id_num = 1
   for i=1,#order do 
     if cur_id == order[i].id then
       cur_id_num = i
