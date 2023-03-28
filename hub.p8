@@ -27,11 +27,11 @@ folder_name = "tweets_v6/" --name of the folder with the carts. should be adjace
 
 order = { 
   
-  {
-    id="volume6",
-    name="vol 6 title",
-    creator="dbaa"
-  },
+  -- {
+  --   id="volume6",
+  --   name="vol 6 title",
+  --   creator="dbaa"
+  -- },
 
   {
     id="rollercoaster",
@@ -174,11 +174,11 @@ order = {
     creator="@sourencho"
   },
 
-  {
-    id="smoke_columns",
-    name="smoke columns",
-    creator="@trasevol_dog"
-  },
+  -- {
+  --   id="smoke_columns",
+  --   name="smoke columns",
+  --   creator="@trasevol_dog"
+  -- },
 
   
 
