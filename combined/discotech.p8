@@ -1,0 +1,51 @@
+pico-8 cartridge // http://www.pico-8.com
+version 29
+__lua__
+
+--[[
+  put this check_time function at the start of the cart
+  make sure to call check_time() somehwere in the cart.
+  in most tweetcarts, the bast place to do this is direclty before "flip()"
+--]]
+function check_time() 
+  --id is stored in the parameters field
+  my_id = stat(6)
+
+  --the breadcrumb field is the name of the start cart + "," + the number of seconds we should play
+  my_info = stat(100)
+  --if we don't have it, stop checking
+  if my_info == nil then
+    return
+  end
+
+  breadcumb_parts = split(my_info, ",", true)
+  start_cart_name = breadcumb_parts[1]
+  max_time = breadcumb_parts[2]
+
+  --check if we hit the max time
+  if time() > max_time or btnp(1) then
+    load(start_cart_name,"",my_id)
+  end
+end
+--end of check_time
+
+-- discotech
+-- #pico8 #tweetcart
+cls()c=16::_::
+for x=0,128,16 do
+for y=0,128,16 do
+c-=1if(c==0)c=16
+line(64,64,x,y,c)
+end
+end
+if c>5then circfill(64,180,80,0)circfill(64,-52,80,0)else
+circfill(64,128,8,0)circfill(64,0,8,0)end
+check_time()
+flip()goto _
+__gfx__
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00700700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00077000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00077000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00700700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
