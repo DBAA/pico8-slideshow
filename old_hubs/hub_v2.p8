@@ -145,11 +145,11 @@ order = {
     creator="@spug"
   },
   
-  {
-    id="ripple_heart",
-    name="ripple heart",
-    creator="@trasevol_dog"
-  },
+  -- {
+  --   id="ripple_heart",
+  --   name="ripple heart",
+  --   creator="@trasevol_dog"
+  -- },
 
   {
     id="shit_flag",

@@ -27,11 +27,11 @@ order = {
     creator="@munrohoberman"
   },
 
-  {
-    id="smoke_columns",
-    name="smoke columns",
-    creator="@trasevol_dog"
-  },
+  -- {
+  --   id="smoke_columns",
+  --   name="smoke columns",
+  --   creator="@trasevol_dog"
+  -- },
 
   {
     id="clothesline",

@@ -235,11 +235,11 @@ order = {
     creator="@spug"
   },
   
-  {
-    id="ripple_heart",
-    name="ripple heart",
-    creator="@trasevol_dog"
-  },
+  -- {
+  --   id="ripple_heart",
+  --   name="ripple heart",
+  --   creator="@trasevol_dog"
+  -- },
 
   {
     id="shit_flag",
@@ -268,11 +268,11 @@ order = {
     creator="@munrohoberman"
   },
 
-  {
-    id="smoke_columns",
-    name="smoke columns",
-    creator="@trasevol_dog"
-  },
+  -- {
+  --   id="smoke_columns",
+  --   name="smoke columns",
+  --   creator="@trasevol_dog"
+  -- },
 
   {
     id="clothesline",
@@ -786,14 +786,6 @@ order = {
     creator="@sourencho"
   },
 
-  -- {
-  --   id="smoke_columns",
-  --   name="smoke columns",
-  --   creator="@trasevol_dog"
-  -- },
-
-  
-
   {
     id="ocean_born",
     name="ocean born",
@@ -925,7 +917,7 @@ function draw_credits()
   sprint(order[next_id_num].creator, right_x+1-text_width(order[next_id_num].creator)*2, y_pos, text_col)
 
   --gallery
-  print("#tweetcart gallery 6 at", 17,56, text_col)
+  print("#tweetcart gallery at", 22,56, text_col)
 
   --wonderville
   local bar_name = {"w","o","n","d","e","r","v","i","l","l","e"}
